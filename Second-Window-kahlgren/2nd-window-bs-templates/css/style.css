@@ -41,3 +41,18 @@ footer .navbar {
 	table#cart tfoot td .btn{display:block;}
 
 }
+
+footer nav {
+  padding-top: 10px;
+  color: white;
+}
+
+footer nav a {
+  color: inherit;
+}
+
+footer nav a:hover {
+  text-decoration: none;
+  color: gray;
+  cursor: pointer;
+}
