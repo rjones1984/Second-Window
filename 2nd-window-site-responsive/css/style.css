@@ -2,6 +2,29 @@ body {
   margin-top: 70px;
 }
 
+.nav-font {
+  font-size: large;
+}
+
+header nav li {
+  border: 1px solid white;
+  color: white;
+  margin: 0 3px;
+  border-radius: 5px;
+}
+
+
+
+.shoppingcart a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+.shoppingcart a:hover {
+  color: gray;
+  cursor: pointer;
+}
+
 footer .navbar {
   margin-bottom: 0;
 }
