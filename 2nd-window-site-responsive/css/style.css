@@ -25,13 +25,45 @@ header nav li {
   cursor: pointer;
 }
 
+footer nav {
+  padding-top: 10px;
+  color: white;
+}
+
+footer nav a {
+  color: inherit;
+}
+
+footer nav a:hover {
+  text-decoration: none;
+  color: gray;
+  cursor: pointer;
+}
+
 footer .navbar {
   margin-bottom: 0;
+}
+
+/*the css below aim to peg the footer to the bottom of page in shoppingcart regardless of content size*/
+.cart-main {
+  padding-bottom: 44px;
+}
+
+.cart-footer {
+  position: relative;
+  bottom: 0;
+  clear: both;
 }
 
 
 .table>tbody>tr>td, .table>tfoot>tr>td{
     vertical-align: middle;
+}
+
+@media (max-width: 992px) {
+  .cart-main {
+    margin-top: 120px;
+  }
 }
 @media screen and (max-width: 600px) {
     table#cart tbody td .form-control{
@@ -61,21 +93,12 @@ footer .navbar {
 
 
 	table#cart tfoot td{display:block; }
-	table#cart tfoot td .btn{display:block;}
+	table#cart tfoot td .btn{display:block; width: 100%;}
 
+.cart-main {
+  margin-top: 0;
+  position: relative;
+  bottom:0;
 }
 
-footer nav {
-  padding-top: 10px;
-  color: white;
-}
-
-footer nav a {
-  color: inherit;
-}
-
-footer nav a:hover {
-  text-decoration: none;
-  color: gray;
-  cursor: pointer;
 }
